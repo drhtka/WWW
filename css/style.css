@@ -122,6 +122,7 @@ h1{
     border: 1px solid #1085e4;
     padding: 20px 60px;
     border-radius: 30px;
+    transition: 0.3s;
 }
 .btn-primary:hover{
     color: #1085e4;
@@ -139,6 +140,8 @@ h1{
     padding: 20px 40px;
     border-radius: 30px;
     margin-left: 20px;
+    transition: 0.3s;
+
 }
 
 .btn-secondary:hover{
@@ -167,6 +170,8 @@ h1{
     border: 1px solid #dce1e5;
     padding: 20px 60px;
     border-radius: 30px;
+    transition: 0.3s;
+
 }
 .btn-info:hover{
     /* color: transparent; */
@@ -437,8 +442,8 @@ h1{
                          "e f g"
                          "e h h";
     max-width: 1110px;
-    grid-gap: 35px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px; /*отступы*/
+    grid-template-columns: 1fr 1fr 1fr;/*сделать три колонки с однаковой шириной*/
     margin: 80px auto;
 }
 
@@ -579,3 +584,46 @@ h1{
     height: 87px;
 }
 /*grid 4 block end*/
+
+.page-software-icon{
+    background-repeat: no-repeat;
+    display: block;
+    background-image: url("../img/software-icon.png");
+    background-position: 28px 0;
+    height: 98px;
+    background-size: 117px 98px;
+}
+.page-software-flex{
+    display: flex;
+    justify-content: flex-end;
+    /* flex-basis: 70%; */
+}
+.page-software-flex>div{
+    flex-basis: 55%;
+}
+.page-software .title-h2{
+    max-width: 766px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+.page-software-list{
+    margin-top: 31px;
+    height: 323px;
+    overflow: hidden;
+    overflow: scroll;
+}
+.page-software-list dt{
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 10px;
+}
+.page-software-list dd{
+    margin-left: 0;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.page-software{
+    padding: 109px 0 156px 0;
+}
