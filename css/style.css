@@ -225,7 +225,78 @@ h1{
     font-weight: 700;
     color: #192b59;
 } */
+.content-app{
+    max-width: 55%;
+}
 
+.content-app .title-h2{
+    margin-bottom: 36px;
+}
+.page-app{
+    padding: 70px 0 97px 0;
+}
+.page-app .wrap{
+    position: relative;
+}
+.page-app-text{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: #c4d2dd;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-bottom: 13px;
+}
+.page-app-link-list{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.page-app-link-list>li {
+    display: inline-block;
+}
+.page-app-link-list>li>a{
+    background-image: url(../img/market-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 190px;
+    height: 80px;
+}
+.page-app-link-list>li>a.page-app-android{
+    background-position: 0 0;
+    margin-left: -15px;
+}
+.page-app-link-list>li>a.page-app-ios {
+    background-position: -187px 0;
+}
+
+.video-app {
+    position: absolute;
+    top: -59px;
+    right: -171px;
+}
+/* -------------------- Block .page-analytics ------------------ */
+.page-analytics{
+    background-image: url(../img/analytics-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.flex-analytics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 119px 0 130px 0;
+}
+.flex-analytics>div{
+    flex-basis: 55%;
+}
+.page-analytics .title-h2{
+    margin: 9px 0 26px 0;
+}
+.page-analytics-text{
+    margin-bottom: 50px;
+}
 .list-stat>li{
     font-size: 12px;
     color: #1085e4;
@@ -621,6 +692,17 @@ h1{
     flex-basis: 54%;
     padding-left: 50px;
 }
+
+.settings-icon {
+    display: block;
+    background-image: url(../img/customize-icon.png);
+    background-repeat: no-repeat;
+    background-position-x: -24px;
+    width: 115px;
+    height: 97px;
+
+}
+
 .page-software-icon{
     display: block;
     background-repeat: no-repeat;
@@ -641,6 +723,12 @@ h1{
     overflow: hidden;
     overflow: scroll;
 }
+
+.page-software-list::-webkit-scrollbar{ width: 4px; height: 4px; }
+.page-software-list::-webkit-scrollbar-button{ background-color: #1085e4; }
+.page-software-list::-webkit-scrollbar-track-piece{ background-color: #f3f6ff; }
+.page-software-list::-webkit-scrollbar-thumb{ height: 50px; background-color: #1085e4; border-radius: 10px;}
+
 .page-software-list dt{
     font-weight: 700;
     color: #5a6789;
