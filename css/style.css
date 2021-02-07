@@ -4,6 +4,9 @@ body{
     font-family: 'Open Sans';
     line-height: 26px;
     color: #7582a1;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -65,6 +68,8 @@ h1{
 .wrap{
     max-width: 1110px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 /*flex for logo*/
 .box-header{
@@ -584,31 +589,55 @@ h1{
     height: 87px;
 }
 /*grid 4 block end*/
-
-.page-software-icon{
+/* -------------------- Block .page-software ------------------ */
+.page-software{
+    background-image: url("../img/grabsoft-bg.png");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    padding: 109px 0 156px 0;
+    position: relative;
+
+}
+.page-software:before {
+    content: "";
     display: block;
-    background-image: url("../img/software-icon.png");
-    background-position: 28px 0;
-    height: 98px;
-    background-size: 117px 98px;
+    background-image: url(../img/laptop.png);
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 760px;
+    background-size: contain;
+    background-position: 0 bottom;
+    position: absolute;
+    left: 0px;
+    top: 117px;
 }
 .page-software-flex{
     display: flex;
     justify-content: flex-end;
     /* flex-basis: 70%; */
 }
-.page-software-flex>div{
-    flex-basis: 55%;
+.page-software-flex > div{
+    flex-basis: 54%;
+    padding-left: 50px;
 }
+.page-software-icon{
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url("../img/software-icon.png");
+    background-position: 28px 0;
+    height: 98px;
+    background-size: 117px 98px;
+}
+
 .page-software .title-h2{
     max-width: 766px;
     margin-top: 12px;
     margin-bottom: 26px;
 }
 .page-software-list{
-    margin-top: 31px;
-    height: 323px;
+    margin-top: 30px;
+    height: 328px;
     overflow: hidden;
     overflow: scroll;
 }
@@ -624,6 +653,3 @@ h1{
     line-height: 1.8;
 }
 
-.page-software{
-    padding: 109px 0 156px 0;
-}
