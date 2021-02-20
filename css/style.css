@@ -354,8 +354,10 @@ h1{
     margin-bottom: -7px;
 }
 .box-price{
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
+    padding-left: 0;
     margin-top: 80px;
 }
 /*Pricing Plans 3 blocks*/
@@ -470,6 +472,8 @@ h1{
     /* background-color: #edf6ff; */
     padding: 116px 0 96px 0;
 }
+
+
 .page-plan, .page-screen{
     /* padding: 116px 0 0 0; */
     text-align: center;
@@ -850,3 +854,144 @@ h1{
     display: block;
     margin-top: 8px;
 }
+/* -------------------- Block .page-team ------------------ */
+
+.page-team{
+    text-align: center;
+    background-image: url(../img/team-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 116px 0 120px 0;
+}
+.page-team .title-h20-40{
+    color: #fff;
+}
+
+.page-team .title-h2-40 span{
+    color: #fff;
+}
+
+.box-team{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 138px;
+}
+.box-team-item{
+    background-color: #fff;
+    flex-basis: 32%;
+    box-shadow: 0 8px 16px rgba(180, 181, 181, 0.2);
+    position: relative;
+    padding: 184px 0 40px 0;
+    box-sizing: border-box;
+}
+.box-team-item .avatar{
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.box-team-item .author{
+    font-size: 26px;
+    color: #192b59;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin-bottom: 19px;
+}
+
+.box-team-item .author span{
+    font-size: 14px;
+    font-weight: 800;
+    color: #1a88e1;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 0.2em;
+}
+
+.box-team-item .btn-team{
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border: none;
+    padding: 0;
+    transition: 0.3em;
+}
+
+.box-team-item .btn-team:hover{
+    background-color: #1a88e1;
+}
+.box-team-item .btn-team span{
+    background-image: url(../img/team-socbtn.png);
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto;
+}
+.box-team-item .btn-more span{
+    background-position: -9px -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.box-team-item .btn-more:hover span{
+    background-position: -9px -36px;
+}
+.box-team-item .btn-more:focus{
+    outline: none;
+}
+
+.social-team{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin: 0;
+}
+
+.social-team .btn-team{
+    display: flex;
+    align-items: center;
+}
+
+.box-team-item .box-fb span{
+    background-position: -33px -5px;
+    width: 20px;
+    height: 20px;
+}
+.box-team-item .btn-fb:hover span {
+    background-position: -33px -36px;
+}
+.box-team-item .btn-tw span{
+    background-position: -59px -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.box-team-item .btn-tw:hover span {
+    background-position: -59px -36px;
+}
+
+.box-team-item .btn-be span{
+    background-position: -87px -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.box-team-item .btn-be:hover span {
+    background-position: -87px -36px;
+}
+
+.box-team-item .btn-web span{
+    background-position: -113px -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.box-team-item .btn-web:hover span {
+    background-position: -113px -36px;
+}
+
+
+/* -------------------- Block .page-trail ------------------ */
