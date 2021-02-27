@@ -56,6 +56,30 @@ h1{
     color: #1085e4;
     text-transform: uppercase;
 }
+/* -------------------- Block .page-stat ------------------ */
+.object-circle {
+    display: block;
+    position: absolute;
+    background-image: url(../img/funfacts-circle.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 469px;
+    height: 641px;
+    left: 0px;
+    bottom: -251px;
+}
+
+.object-rhombus {
+    display: block;
+    position: absolute;
+    background-image: url(../img/funfacts-romb.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 603px;
+    height: 788px;
+    right: 0;
+    top: -217px;
+}
 
 .page-stat .title-h2, .page-screen .title-h2{
     text-align: center;
@@ -237,6 +261,19 @@ h1{
 }
 .page-app .wrap{
     position: relative;
+}
+.intro{
+    color: rgba(0, 0, 0, 0.04);
+    font-size: 300px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 39px;
+    margin: 0;
+    text-align: center;
 }
 .page-app-text{
     font-size: 16px;
@@ -955,14 +992,16 @@ h1{
     align-items: center;
 }
 
-.box-team-item .box-fb span{
+.box-team-item .btn-fb span{
     background-position: -33px -5px;
     width: 20px;
     height: 20px;
 }
+
 .box-team-item .btn-fb:hover span {
     background-position: -33px -36px;
 }
+
 .box-team-item .btn-tw span{
     background-position: -59px -5px;
     width: 20px;
