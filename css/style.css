@@ -22,7 +22,7 @@ h1{
 }
 .title-h2{
     font-size: 50px;
-    font-weight: 600px;
+    font-weight: 600;
     color: #192b59;
     line-height: 1.2;
     letter-spacing: -2.33px;
@@ -1034,3 +1034,119 @@ h1{
 
 
 /* -------------------- Block .page-trail ------------------ */
+
+.page-trail {
+    background-image: url(../img/trail-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 69px 0 120px 0;
+}
+
+.page-trail .title-h2 {
+    margin-bottom: 49px;
+}
+
+.flex-form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-form > img {
+    margin-right: 60px;
+}
+
+.flex-form > div {
+    flex-basis: 46%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-trail input,
+.page-trail textarea {
+    font-size: 14px;
+    border: 2px solid #dce4ec;
+    border-radius: 35px;
+    padding: 25px 80px 25px 38px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page-trail input:focus,
+.page-trail textarea:focus {
+    outline: none;
+}
+
+.page-trail textarea {
+    min-height: 160px;
+    resize: none;
+}
+
+.contact-form-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact-form-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 40px;
+    background-repeat: no-repeat;
+}
+
+.contact-form-name::after {
+    background-image: url(../img/icon-name.png);
+    width: 13px;
+    height: 15px;
+    top: calc(50% - 7px);
+}
+
+.contact-form-email::after {
+    background-image: url(../img/icon-email.png);
+    width: 14px;
+    height: 15px;
+    top: calc(50% - 5px);
+}
+
+.contact-form-text {
+    margin-bottom: 33px;
+}
+
+.contact-form-text::after {
+    background-image: url(../img/icon-text.png);
+    width: 14px;
+    height: 15px;
+    top: 28px;
+}
+
+.contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {color:#8995b3;}
+.contact-form input::-moz-placeholder, .contact-form textarea::-moz-placeholder {color:#8995b3;}
+.contact-form input:-moz-placeholder, .contact-form textarea:-moz-placeholder {color:#8995b3;}
+.bcontact-form input:-ms-input-placeholder, .bcontact-form textarea:-ms-input-placeholder {color:#8995b3;}
+
+.page-trail .btn-primary {
+    padding: 22px 46px 23px 67px;
+    letter-spacing: 0.17em;
+    position: relative;
+    max-width: 230px;
+}
+
+.page-trail .btn-primary::before{
+    content: "";
+    background-image: url(../img/icon-plane.png);
+    width: 13px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    left: 52px;
+    top: calc(50% - 7px);
+}
