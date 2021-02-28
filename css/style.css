@@ -1150,3 +1150,53 @@ h1{
     left: 52px;
     top: calc(50% - 7px);
 }
+
+/* -------------------- Block .page-footer ------------------ */
+.page-footer{
+    background-color: #192b59;
+    padding: 5px 0 7px 0;
+}
+.limpon-link{
+    text-transform: uppercase;
+    color: #1085e4;
+}
+.page-footer .wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.social-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 15.3%;
+    padding: 0;
+    margin: 0;
+}
+.social-list-link{
+    background-image: url(../img/footer-icons.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 16px;
+    width: 20px;
+}
+
+.social-list .link-fb {
+    background-position: 0px 0px;
+}
+
+.social-list .link-tw {
+    background-position: -34px 0px;
+}
+
+.social-list .link-be {
+    background-position: -75px 0px;
+}
+
+.social-list .link-p {
+    background-position: -115px 0px;
+}
+
+.social-list .link-f {
+    background-position: -150px 0px;
+}
